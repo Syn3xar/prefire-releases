@@ -15,7 +15,11 @@ Windows desktop app · Built by [Syn3xar](https://github.com/Syn3xar) · Contact
 - **Opponent scouting (Pro):** paste your match room link before the veto to see both teams' form, the biggest threats, their best maps and a pick/ban suggestion.
 - **2D demo replay:** watch any match from above, with grenades, the bomb, kills and the kill feed. Pro adds 27 analysis layers: heatmaps, team setups, focus and follow cam, trails, trade timers, round economy, key moments and more.
 - **Demo library:** download a demo on FACEIT and Prefire picks it up from your Downloads folder, then stores and analyzes it.
-- **Live tracking:** uses CS2's official Game State Integration, the same feature HUD and overlay tools use. Nothing is injected into the game.
+- **Live tracking:** uses CS2's official Game State Integration, the same feature HUD and overlay tools use.
+
+## Compatible with FACEIT Anti-Cheat
+
+Prefire never touches the game. It runs as its own app and doesn't inject anything, hook into CS2 or read the game's memory. Its data comes from FACEIT's public API, from demo files you download, and from CS2's built-in Game State Integration: a small config file in your CS2 folder that makes the game itself send round info to Prefire. Tested in FACEIT matches with the anti-cheat running.
 
 | | |
 |---|---|
